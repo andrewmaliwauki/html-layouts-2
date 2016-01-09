@@ -1,89 +1,110 @@
-body {
-  background-color: lightgrey;
+html body {
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
+  width: 100%;
+  /*background: lightgrey;*/
 }
 
-.document {
-  width: 1024px;
-  height: 1400px;
-  background-color: white;
-  margin: -24px auto 0px;
-  position: relative;
+.container {
+  max-width: 1100px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .box1 {
-  background-color: #d0021b;
-  width: 300px;
-  height: 180px;
-  position: absolute;
-  top: 32px;
-  left: 25px;
+  background: darkgrey;
+  width: 29%;
+  height: 170px;
+  background: #d0021b;
 }
 
 .box2 {
-  background-color: #4a90e2;
-  width: 300px;
-  height: 180px;
-  position: absolute;
-  top: 32px;
-  left: 363px;
+  background: darkgrey;
+  width: 29%;
+  height: 170px;
+  background: #4a90e2;
+  margin: 0 -35px;
 }
 
 .box3 {
-  background-color: #4a4a4a;
-  width: 300px;
-  height: 180px;
-  position: absolute;
-  top: 32px;
-  left: 699px;
+  background: darkgrey;
+  width: 29%;
+  height: 170px;
+  background: #4a4a4a;
+}
+
+.section2 {
+  max-width: 1100px;
+  height: 370px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 p {
   font-family: sans-serif;
-  font-size: 24px;
-  position: relative;
-  padding: 260px 25px 0px 25px;
-  line-height: 36px;
+  font-size: 22px;
+  padding: 0 3%;
+  line-height: 32px;
+  display: block;
+  margin-top: -5px;
 }
 
-.bigBlue {
-  width: 970px;
-  height: 420px;
-  background-color: #4a90e2;
+.section3 {
+  max-width: 1100px;
+  height: 490px;
+  background: white;
+  display: flex;
+  margin: 0 auto;
+}
+
+.blueBox {
+  width: 93.9%;
+  height: 450px;
+  background: #4a90e2;
+  margin: 0 auto;
   position: relative;
-  left: 26px;
-  top: 25px;
 }
 
 .lilRed {
-  width: 324px;
-  height: 420px;
-  background-color: #d0021b;
+  width: 30%;
+  height: 450px;
+  background: #d0021b;
   position: absolute;
 }
 
-.skinnyBlue {
-  width: 970px;
-  height: 180px;
-  background-color: #4a90e2;
-  position: relative;
-  left: 26px;
-  top: 60px;
+.section4 {
+  max-width: 1100px;
+  height: 210px;
+  background: white;
+  display: flex;
+  margin: 0 auto;
 }
 
-.redBox {
-  background-color: #d0021b;
+.longBlue {
+  background: #4a90e2;
+  width: 93.9%;
+  height: 170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.redBox2 {
   width: 300px;
-  height: 180px;
-  position: absolute;
-  left: 670px;
+  height: 170px;
+  background: #d0021b;
 }
 
-.greyBox {
-  background-color: #4a4a4a;
-  width: 217px;
-  height: 180px;
-  position: absolute;
-  left: 42px;
+.lilGrey {
+  width: 220px;
+  height: 170px;
+  background: #4a4a4a;
+  margin: 0 auto;
 }
